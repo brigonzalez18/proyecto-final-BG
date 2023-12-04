@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@200;500&family=Vina+Sans&display=swap');
+/* estilos comunes*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    border-radius: 20px;
+
+}
+
+/*estilos header*/
+
+header{
+    padding: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../img/manas.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div {
+    border-radius: 10px;
+    padding: 15px;
+    background-image:linear-gradient(red,orange,yellow);
+
+
+    }
+
+    @media (max-width:800px) {
+        header{
+            background-position:center ;
+        }
+        
+    }
+    /* estilos navbar */
+    .navbar{
+        display:flex;
+        justify-content: center;
+        background-image: linear-gradient( rgb(211, 78, 100),violet)
+        
+    
+    }
+    .navbar a {
+        color: gainsboro;
+        padding: 14px  30px;
+        text-decoration: none;
+    }
+
+    
+    .navbar a:hover {
+        background-color:black;
+    }
+    @media (max-width:800px) {
+        .navbar{
+            flex-direction: column;
+            position: unset;
+        }
+        
+    }
+ /* estilo parte principal */
+ .principal {
+    display: flex;
+    flex-wrap: wrap;
+ }
+    @media (max-width:800px) {
+        .principal{
+            flex-direction: column;
+
+        }
+        
+    }
+
+
+ aside {
+    flex-basis:40%;
+    background-image:url(../img/fuegoooo.jpg);
+    font-size: 23px;
+    color: rgb(236, 229, 235);
+ }
+ @media (max-width:800px) {
+    .aside{
+        flex-direction: column;
+    }
+    
+ }
+
+    aside img{
+        width: 100%;
+        height: auto;
+
+    }
+    @media (max-width:800px) {
+        aside img {
+            flex-direction: column;
+
+        }
+        
+    }
+    
+
+    .color{
+        background-color:rgb(146, 40, 40);
+        font-size: 50px;
+        justify-content: center;
+    }
+
+         
+    .numero3{
+        font-size: 10px;
+        color: rgb(255, 253, 252);
+    }
+    
+
+    main {
+    flex-basis: 60%;
+    background-color: indianred;
+    font-size: 30px;
+    justify-content: center;
+    text-decoration:underline;
+    padding: 1vw;
+    }
+    @media (max-width:800px) {
+        .main{
+            flex-direction: column;
+        }
+        
+    }
+    main img{
+        width: 70%;
+        height: auto;
+    }
+    
+
+
+    .video{
+        width: 50vw;
+        height: 50vh;
+        display: block;
+        padding: 1vw;
+    }
+    @media (max-width:800px) {
+        .video{
+            flex-direction: column;
+        }
+    }
+            
+/*estilos de algunas clases*/
+.nezuko{
+    font-size: 15px;
+}
+@media (max-width:800px) {
+    .nezuko{
+        flex-direction: column;
+    }
+    
+}
+.readmore{
+    color: rgb(24, 21, 20);
+    padding: 10px;
+    border-radius: 30px;
+    background-color: (rgb(233, 230, 194)169);
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    background-image: linear-gradient(red,orange,yellow);
+    
+}
+    .readmore:hover{
+        background-color: aliceblue;
+    
+    
+}
+@media (max-width:800px) {
+    .readmore{
+        flex-direction: column;
+
+    }
+    
+}
+/*footer*/
+ footer{
+ text-align:center;
+padding: 10px;
+font-size: 20px;
+color: rgb(15, 15, 15);
+background-image:linear-gradient(red,orange,yellow);
+ }
+ /*footer*/
+ form{
+    padding: 40px;
+    background-color: lightsalmon;
+    border: 5px outset orange;
+    text-align:center;
+ }
+ label{
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+
+ }
+fieldset{
+    display: grid;
+    grid-template-columns: 30vw 20vw;
+    gap: 10px;
+    margin: auto;
+    width:fit-content;
+    font-size: 1.2rem;
+    border: 5px double
+    violet;
+    
+}
+
+legend{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+
+}
+@media (max-width:800px) {
+    fieldset{
+        display:  flex;
+        flex-direction: column;
+
+
+    }
+
+    }
+    
